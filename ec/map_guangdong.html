@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
-        <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/china.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/guangdong.js"></script>
 
 </head>
 <body >
-    <div id="74861894ecb84b97b865457fa1811c1c" class="chart-container" style="width:900px; height:500px; "></div>
+    <div id="6e4c31f782074f68925f67ea66108986" class="chart-container" style="width:900px; height:500px; "></div>
     <script>
-        var chart_74861894ecb84b97b865457fa1811c1c = echarts.init(
-            document.getElementById('74861894ecb84b97b865457fa1811c1c'), 'white', {renderer: 'canvas'});
-        var option_74861894ecb84b97b865457fa1811c1c = {
+        var chart_6e4c31f782074f68925f67ea66108986 = echarts.init(
+            document.getElementById('6e4c31f782074f68925f67ea66108986'), 'white', {renderer: 'canvas'});
+        var option_6e4c31f782074f68925f67ea66108986 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -38,95 +38,40 @@
     "series": [
         {
             "type": "map",
+            "name": "\u5546\u5bb6A",
             "label": {
                 "show": true,
                 "margin": 8
             },
-            "map": "china",
+            "map": "\u5e7f\u4e1c",
             "data": [
                 {
-                    "name": "\u4e0a\u6d77\u7701",
-                    "value": 19.039
+                    "name": "\u6c55\u5934\u5e02",
+                    "value": 49
                 },
                 {
-                    "name": "\u56db\u5ddd\u7701",
-                    "value": 14.03
+                    "name": "\u6c55\u5c3e\u5e02",
+                    "value": 50
                 },
                 {
-                    "name": "\u5929\u6d25\u7701",
-                    "value": 29.63
+                    "name": "\u63ed\u9633\u5e02",
+                    "value": 101
                 },
                 {
-                    "name": "\u5b89\u5fbd\u7701",
-                    "value": 16.841
+                    "name": "\u9633\u6c5f\u5e02",
+                    "value": 73
                 },
                 {
-                    "name": "\u5c71\u4e1c\u7701",
-                    "value": 16.803
+                    "name": "\u8087\u5e86\u5e02",
+                    "value": 93
                 },
                 {
-                    "name": "\u5c71\u897f\u7701",
-                    "value": 21.393
+                    "name": "\u5e7f\u5dde\u5e02",
+                    "value": 140
                 },
                 {
-                    "name": "\u5e7f\u4e1c\u7701",
-                    "value": 18.332
-                },
-                {
-                    "name": "\u5e7f\u897f\u7701",
-                    "value": 26.786
-                },
-                {
-                    "name": "\u6c5f\u82cf\u7701",
-                    "value": 18.64
-                },
-                {
-                    "name": "\u6c5f\u897f\u7701",
-                    "value": 19.442
-                },
-                {
-                    "name": "\u6cb3\u5317\u7701",
-                    "value": 19.257
-                },
-                {
-                    "name": "\u6cb3\u5357\u7701",
-                    "value": 20.608
-                },
-                {
-                    "name": "\u6d59\u6c5f\u7701",
-                    "value": 20.236
-                },
-                {
-                    "name": "\u6d77\u5357\u7701",
-                    "value": 0
-                },
-                {
-                    "name": "\u6e56\u5317\u7701",
-                    "value": 16.711
-                },
-                {
-                    "name": "\u6e56\u5357\u7701",
-                    "value": 14.695
-                },
-                {
-                    "name": "\u7518\u8083\u7701",
-                    "value": 13.102
-                },
-                {
-                    "name": "\u798f\u5efa\u7701",
-                    "value": 14.972
-                },
-                {
-                    "name": "\u91cd\u5e86\u7701",
-                    "value": 0
-                },
-                {
-                    "name": "\u9655\u897f\u7701",
-                    "value": 21.536
-                },
-                {
-                    "name": "\u9ed1\u9f99\u6c5f\u7701",
-                    "value": 4.598
+                    "name": "\u60e0\u5dde\u5e02",
+                    "value": 68
                 }
             ],
             "roam": true,
@@ -142,10 +87,10 @@
     "legend": [
         {
             "data": [
-                ""
+                "\u5546\u5bb6A"
             ],
             "selected": {
-                "": true
+                "\u5546\u5bb6A": true
             },
             "show": true,
             "padding": 5,
@@ -194,6 +139,7 @@
     "title": [
         {
             "show": true,
+            "text": "Map-\u5e7f\u4e1c\u5730\u56fe",
             "target": "blank",
             "subtarget": "blank",
             "padding": 5,
@@ -205,7 +151,7 @@
     ],
     "visualMap": {
         "show": true,
-        "type": "piecewise",
+        "type": "continuous",
         "min": 0,
         "max": 100,
         "inRange": {
@@ -223,11 +169,11 @@
         "padding": 5,
         "showLabel": true,
         "itemWidth": 20,
-        "itemHeight": 14,
+        "itemHeight": 140,
         "borderWidth": 0
     }
 };
-        chart_74861894ecb84b97b865457fa1811c1c.setOption(option_74861894ecb84b97b865457fa1811c1c);
+        chart_6e4c31f782074f68925f67ea66108986.setOption(option_6e4c31f782074f68925f67ea66108986);
     </script>
 </body>
 </html>
